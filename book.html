@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>BOOK NOW</title>
+</head>
+<body style="background-color: #ad9677;">
+    <div class="wrapper">
+        <header>
+            <h5>BOOK NOW</h5>
+        </header>
+        <form action="https://formsubmit.co/your@email.com" method="POST">
+        <div class="form-left">
+           
+            <label for="firstname">First Name*</label>
+            <input type="text" id="firstname" name="firstname" required pattern="[A-Za-z]"><br>
+
+            <label for="lastname">Last Name*</label>
+            <input type="text" id="lastname" name="lastname" required pattern="[A-Za-z]"><br>
+
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="nr-pers">Adults*</label>
+            <input type="number" min="1" max="50" required><br>
+
+        </div>
+
+
+        <div class="form-right">
+            <label for="nr-boys">Childs*</label>
+            <input type="number" min="1" max="50" required><br>
+
+            <label for="number-rooms">Rooms*</label>
+            <input type="number" min="1" max="50" required><br>
+
+            <label for="check-in">Check-in date*</label>
+            <input type="datetime-local" required><br>
+
+            <label for="check-out">Check-out date*</label>
+            <input type="datetime-local" required><br>
+
+            
+
+        </div><br>
+       <div class="cbx-container">
+        <input type="checkbox" id="checkbox" name="checkbox">
+        <label for="cbx" style="margin-left: 0px;"><a href="t-c.html">Terms and Conditions</a></label>
+       </div>
+        <br><br>
+            <button type="submit" id="pay"><b>PAY NOW</b></button><br>
