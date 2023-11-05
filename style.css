@@ -25,7 +25,7 @@ html{
 
 /*BANNER*/
 #banner{
-    background: linear-gradient(rgba(0,0,0,0.5), #ad9677), url(images/banner.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), #ad9677), url(Images/banner.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -879,11 +879,11 @@ h3{
 
   @media screen and (max-width: 768px){
     .wrapper header{
-        padding: 50px 115px 150px;
+        padding: 50px 110px 150px;
 
     }
     .wrapper{
-        margin-left: 15px;
+        margin-left: 10px;
         width: 95%;
         display: flex;
         height: 140vh;
