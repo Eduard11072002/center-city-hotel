@@ -181,6 +181,7 @@ h3{
 .p1{
     font-size: large;
     margin-left: 30px;
+    text-align: justify;
     margin-right: 30px;
     color: aliceblue;
     text-transform: capitalize;
@@ -196,6 +197,7 @@ h3{
 .p2{
     font-size: large;
     margin-left: 30px;
+    text-align: justify;
     margin-right: 30px;
     color: aliceblue;
     text-transform: capitalize;
