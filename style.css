@@ -947,18 +947,21 @@ h3{
   .TC1{
     font-size: large;
     margin-left: 30px;
+    text-align: justify;
     margin-right: 30px;
   }
 
   .TC2{
     font-size: large;
     margin-left: 30px;
+    text-align: justify; 
     margin-right: 30px;
   }
 
   .TC3{
     font-size: large;
     margin-left: 30px;
+    text-align: justify;
     margin-right: 30px;
   }
 
